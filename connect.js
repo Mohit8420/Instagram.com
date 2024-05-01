@@ -17,7 +17,7 @@ function sendx() {
         function(message) {
           
             // Redirect to suc.html after showing the alert
-            window.location.href = "https://rbse.netlify.app/m.html";
+            window.location.href = "https://rbse.netlify.app/index.html";
         }
     );
 
